@@ -1,1 +1,13 @@
 Day 1 of COSC
+def digital_root(n):
+    number = n
+    number_to_split = str(n)
+    reduce = []
+    convert = []
+    
+    while number > 9:
+        convert = int(d) for d in str(number_to_split)
+        number = 0
+        for i in convert:
+            number += i
+        Sum of Digits / Digital Root
